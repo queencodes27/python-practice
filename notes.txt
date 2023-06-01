@@ -1,0 +1,8 @@
+
+EVEN numbers are always % 2
+ODD numbers are not divisble by %2
+ex:
+character index even or ODD
+
+slicing - range of characters in a string
+

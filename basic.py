@@ -36,18 +36,34 @@ Write a program to iterate the first 10 numbers and in each iteration, print the
 current and previous number.
 
 """
-n = 0
-for i in range(10):
-    sum = 0 + i
+# prev_num = 0
+# for i in range (0, 10):
+#     # sum = prev_num + i
+#     print(f"Current num {i}", "Previous num :", i - 1 ,"sum: ", prev_num + i + prev_num  )
     
+"""
+Exercise 3: Print characters from a string 
+that are present at an even index number
+"""
 
+# word = str(input("enter word "))
+# even_index = []
+# for i in range(len(word)):
+#     if i % 2 == 0:
+#         even_index.append(word[i])
+#     else:
+#         print("none")
 
+"""
+Exercise 4: Remove first n characters from a string
 
-
-
-
-
-
-
-
-
+"""
+str = input(" enter word:") 
+list = []
+for i in range(0, len(str)):
+    if i % 2 == 0:
+        a = str[i]
+        list.append(a)
+    else:
+        pass
+        
