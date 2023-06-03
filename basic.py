@@ -72,15 +72,33 @@ Write a function to return
 True if the first and last number of a given list is same. 
 If numbers are different then return False.
 """
-numbers_x = [10, 20, 30, 40, 10]
-numbers_y = [75, 65, 35, 75, 30]
+# numbers_x = [10, 20, 30, 40, 10]
+# numbers_y = [75, 65, 35, 75, 30]
 
-def same(list):
-    print("l: ", list)
-    first_num = list[0]
-    last_num = list[-1]
-    if first_num == last_num:
-        return True
-    else:
-        return False
-print()
+# def same(list):
+#     print("l: ", list)
+#     first_num = list[0]
+#     last_num = list[-1]
+#     if first_num == last_num:
+#         return True
+#     else:
+#         return False
+# print("result is", same(numbers_x))
+# print("result is", same(numbers_y))
+
+"""
+Exercise 6: Display numbers divisible by 5 from a list
+Iterate the given list of numbers and print only those 
+numbers which are divisible by 5
+
+"""
+# givenlist = [10, 20, 33, 46, 55]
+# for i in givenlist:
+#     if i % 5 == 0:
+#         print(i)
+"""
+Write a program to find how many times substring “Emma” appears in the given string
+"""
+# str_x = "Emma is good developer. Emma is a writer"
+# list = str_x.count("Emma")
+# print(list)
