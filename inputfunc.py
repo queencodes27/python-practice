@@ -11,5 +11,7 @@ input() : built -in function to accept input from user
 #  in a single execution of the input() function, we can ask the user his/her name, age, and 
 # phone number and store it in three different variables.
 
-name, age, phone_number = input("name:  , age: , phone:  ")
-print(name, age, phone_number)
+# name, age, phone_number = input("name:  , age: , phone:  ").split()
+# print(name, age, phone_number)
+
+
