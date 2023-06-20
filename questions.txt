@@ -1,0 +1,4 @@
+namespaces:
+literals:
+local variables:
+global variables:
